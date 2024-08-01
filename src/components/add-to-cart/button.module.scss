@@ -1,0 +1,27 @@
+.button {
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    max-width: 24rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    background-color: #1063ea;
+    color: #a5dfe5;
+
+    &:hover {
+        background-color: #1d90d8;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: #3053b3;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}
