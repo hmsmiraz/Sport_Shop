@@ -46,7 +46,7 @@ const Header = ({ user }) => {
                 <Image src={'/icon.png'} width={48} height={48} alt="Logo" />
                 <Link className={styles.logo} href={'/'}>SportsShop</Link>
             </div>
-            <nav className={styles.headerNav}>
+            <nav className={styles.headerNav} data-id="menuItem">
                 {
                     menuItem.map((item, idx) => item.show ?
                         <Link key={idx} href={item.path} className={styles.navLink}>
